@@ -1,55 +1,49 @@
 ﻿[//]: # (Author: Ashraf Morningstar | GitHub: https://github.com/AshrafMorningstar)
-# WASM Image Processing Pipeline
+
+<div align="center">
+
+# WASM Image Processing
+
+**Native performance in the browser.**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/wasm-image-processing)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-ðŸš€ High-performance browser image processing using WebAssembly.
+</div>
 
-## ðŸ” Why this project exists
+## ðŸ“– Overview
+A high-performance image editor that offloads heavy computation to WebAssembly (Rust). It performs blurs, edge detection, and color manipulation at 60 FPS.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/wasm-image-processing)
-A production-grade implementation demonstrating modern web engineering practices, focusing on performance, accessibility, and scalability.
+## âœ¨ Key Features
+- **Rust + WASM:** Near-native execution speed.
+- **Web Workers:** Non-blocking UI thread.
+- **Canvas API:** Real-time rendering.
+- **Memory Safe:** Rust ownership model.
 
-## âœ¨ Features
+## ðŸ› ï¸ Technical Stack
+**React, Rust, wasm-pack, Web Workers**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/wasm-image-processing)
-- ðŸš€ Production-ready architecture
-- ðŸŽ¨ Premium UI/UX design system
-- â™¿ WCAG AA Accessible
-- ðŸ“± Fully Responsive
-- âš¡ Optimized Performance
+## ðŸš€ Getting Started
 
-## ðŸ§  Architecture
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/wasm-image-processing)
-Built with clean separation of concerns and modern design patterns.
-
-## ðŸš€ Live Demo
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/wasm-image-processing)
-[Deployment Link Placeholder]
-
-## ðŸ“¦ Installation
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/wasm-image-processing)
-```bash
+### Installation
+`ash
+git clone https://github.com/ashraf-morningstar-labs/wasm-image-processing.git
+cd wasm-image-processing
 npm install
 npm run dev
-```
+`
 
-## ðŸ›  Tech Stack
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/wasm-image-processing)
-Rust â€¢ WebAssembly
-
-## ðŸ“ˆ SEO Keywords
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/wasm-image-processing)
-webassembly image processing, rust, performance
+## ðŸ¤ Contribution
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## ðŸ“„ License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/wasm-image-processing)
-MIT
-
-
+---
+<div align="center">
+  <b>Built with â¤ï¸ by <a href="https://github.com/AshrafMorningstar">Ashraf Morningstar</a></b>
+</div>
